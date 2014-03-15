@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		mBMapMan=new BMapManager(getApplication());
-		mBMapMan.init("05wz7r96pUKmnjLGH3vQVNi9", null);  
+		mBMapMan.init("XXXXXXXX", null);  
 		//注意：请在试用setContentView前初始化BMapManager对象，否则会报错
 		setContentView(R.layout.activity_main);
 		mapSpinner=(Spinner)findViewById(R.id.mapTypeSpinner);

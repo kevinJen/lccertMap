@@ -15,12 +15,12 @@ import com.baidu.mapapi.map.MKEvent;
  * @author Kevin
  *
  */
-public class DemoApplication extends Application{
+public class MyApplication extends Application{
     private static DemoApplication mInstance = null;
     public boolean m_bKeyRight = true;
     BMapManager mBMapManager = null;
 
-    public static final String strKey = "mAhfCf8wXrDGFTzI1SIrCca2";
+    public static final String strKey = "XXXXXXXXXX";
 	
 	@Override
     public void onCreate() {
